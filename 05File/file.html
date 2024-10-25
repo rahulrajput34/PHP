@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload file in PHP</title>
+</head>
+<body>
+    <!-- We gave the enctype="multipart/form-data" becuase when there is use of file that time we upload the images and also add the files so we need to give this propety over here-->
+    <form action="./file.php" method="post" enctype="multipart/form-data">
+        <input type="file" name="fileUpload" id="fileUpload">
+        <br>
+        <button type="submit">Upload</button>
+    </form>
+</body>
+</html>
