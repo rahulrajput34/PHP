@@ -1,0 +1,23 @@
+[
+    {
+        "id": 100,
+        "name": "Paper Package",
+        "description": "Contains 500 sheets.",
+        "price": 12,
+        "quantity": 88
+    },
+    {
+        "id": 250,
+        "name": "Colour Pencils",
+        "description": "Each package has multi-coloured pencils",
+        "price": 15.5,
+        "quantity": 38
+    },
+    {
+        "id": 300,
+        "name": "Scissors",
+        "description": "Black scissors",
+        "price": 7.99,
+        "quantity": 22
+    }
+]

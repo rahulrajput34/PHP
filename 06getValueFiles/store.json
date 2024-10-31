@@ -1,0 +1,9 @@
+[
+    {
+        "id": 1,
+        "name": "Surf Board",
+        "description": "Every shop has to have one, right?",
+        "price": 25,
+        "quantity": 4
+    }
+] 
