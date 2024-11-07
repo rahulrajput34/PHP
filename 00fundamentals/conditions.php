@@ -18,8 +18,11 @@
         ?>
     <h1>
         <?php
+        // In php, we are able access this message because if else in php do not supports the concept of the lexical scoping
+        // But the function and loop are same as javascript Which do support the concept of the lexicle scoping
             echo $message;
         ?>
+        
         <!-- without  the echo keyword -->
         <?= $message ?>
     </h1>

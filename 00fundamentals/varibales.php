@@ -13,7 +13,7 @@
             $greetings = "Hello";
             echo $greetings." World <br>";
             // We can pass greetings like that if its a double quotes
-            echo "$greetings World <br>";
+            print "$greetings World <br>";
             // We need to pass it like below if its single  quotes
             echo $greetings.' World <br>';
         ?>
